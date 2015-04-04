@@ -1,4 +1,4 @@
-# studies
+# The C++ Programming Language 
 Exercises and solutions to The C++ Programming Language.
 (4th edition)
 
