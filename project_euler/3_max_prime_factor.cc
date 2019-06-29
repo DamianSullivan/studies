@@ -1,3 +1,12 @@
+// Project Euler Problem 3:
+//
+// The prime factors of 13195 are 5, 7, 13 and 29.
+// What is the largest prime factor of the number 600851475143 ?
+//
+// The following code was lifted from:
+// https://www.geeksforgeeks.org/find-largest-prime-factor-number/#_=_
+// Contributed by Shivi_Aggarwal.
+
 // C++ Program to find largest prime
 // factor of number
 #include <bits/stdc++.h>
@@ -34,11 +43,7 @@ long long maxPrimeFactors(long long n) {
   return maxPrime;
 }
 
-// Driver program to test above function
 int main() {
-  long long n = 15;
-  cout << maxPrimeFactors(n) << endl;
-
-  n = 600851475143;
+  long long n = 600851475143;
   cout << maxPrimeFactors(n);
 }
