@@ -63,6 +63,22 @@
                 "isDefault": true
             },
             "problemMatcher": []
+        },
+        {
+            "label": "build 5 smallest multiple",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-o",
+                "5_smallest_multiple",
+                "5_smallest_multiple.cc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
         }
     ]
 }
