@@ -2,6 +2,22 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "build 1 multiples of 3 and 5",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-o",
+                "1_multiples_of_3_and_5",
+                "1_multiples_of_3_and_5.cc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
             "label": "build 2 even fibonacci numbers",
             "type": "shell",
             "command": "g++",
