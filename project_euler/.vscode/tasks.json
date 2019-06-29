@@ -47,6 +47,22 @@
                 "isDefault": true
             },
             "problemMatcher": []
+        },
+        {
+            "label": "build 4 largest palindrome product",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-o",
+                "4_largest_palindrome_product",
+                "4_largest_palindrome_product.cc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
         }
     ]
 }
