@@ -18,7 +18,7 @@ bool is_divisible(int n, int from, int to) {
 }
 
 int smallest_multiple(int from, int to) {
-  for (int i = 2 * to + 1; i < INT_MAX; i++) {
+  for (int i = to; i < INT_MAX; i += to) {
     if (is_divisible(i, from, to)) {
       return i;
     }
@@ -27,7 +27,7 @@ int smallest_multiple(int from, int to) {
 }
 
 int main() {
-  int smallest = smallest_multiple(1, 20);
+  int smallest = smallest_multiple(1, 100);
   printf("The smallest number divisible by all digits in 1-20 is: %d",
          smallest);
 }
