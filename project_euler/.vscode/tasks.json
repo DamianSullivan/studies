@@ -79,6 +79,22 @@
                 "isDefault": true
             },
             "problemMatcher": []
+        },
+        {
+            "label": "build 6 sum square difference",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-o",
+                "6_sum_square_difference",
+                "6_sum_square_difference.cc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
         }
     ]
 }
